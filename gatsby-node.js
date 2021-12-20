@@ -7,5 +7,11 @@ exports.createPages = async ({ actions }) => {
         context: {},
         defer: true,
     })
-    return {buttons}
+    let title = await createPage({
+        path: "/titles",
+        component: require.resolve("./src/templates/titles.js"),
+        context: {},
+        defer: true,
+    })
+    return {buttons, title}
 }

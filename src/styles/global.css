@@ -222,3 +222,11 @@ p {
     top: 7rem;
     right: 1rem;
 }
+/*titles*/
+.styledTitle {
+    color: #ff751a;
+    font-weight: 800;
+    font-size: 3rem;
+    text-shadow: .3px .3px .3px hsla(0, 0%, 0%, 0.8);
+    letter-spacing: 6px;
+}

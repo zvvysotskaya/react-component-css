@@ -13,6 +13,9 @@ const IndexPage = () => (
                 <p>
                     <Link to="/buttons">Buttons</Link> <br />
                 </p>
+                <p>
+                    <Link to="/titles">Titles</Link> <br />
+                </p>
             </Col>
         </Row>
     
