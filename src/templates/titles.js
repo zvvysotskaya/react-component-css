@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/layout/baseLayout'
 import Title from '../components/titles/title1'
 
 const TitlesPage = () => (

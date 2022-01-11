@@ -3,9 +3,9 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\buttons",
-    "\\src\\styles"
+    "\\src\\images",
+    "\\src\\templates"
   ],
-  "SelectedNode": "\\src\\styles\\global.css",
+  "SelectedNode": "\\src\\images\\gatsby-icon.png",
   "PreviewInSolutionExplorer": false
 }

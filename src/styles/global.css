@@ -194,9 +194,9 @@ p {
 /*Buttons*/
 .bgBlack {
     background-color: #000000;
-    /*min-height: 100vh;
+    min-height: 100vh;
     height: 100%;
-    padding-top: 5rem;*/
+    padding-top: 5rem;
 }
 
 .btnNeon {
@@ -216,7 +216,30 @@ p {
 .myContainer {
     position: relative;
 }
-
+.fancyBtnContainer{
+    padding-top:3rem;
+}
+.btnFancy1 {
+    border: 6px solid #ff00ff;
+    border-radius: 50%;
+    padding: 15px;
+    color: #fff;
+    background-color: #b3ffe6;
+}
+.btnFancy2 {
+    border: 6px solid #0000ff;
+    border-radius: 50%;
+    padding: 15px;
+    color: #fff;
+    background-color: #ffff00;
+}
+.btnFancy3 {
+    border: 6px solid #ffff00;
+    border-radius: 50%;
+    padding: 15px;
+    color: #fff;
+    background-color: #ff00ff;
+}
 .rightArrow {
     position: absolute;
     top: 7rem;
