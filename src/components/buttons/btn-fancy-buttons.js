@@ -51,12 +51,7 @@ const BtnFancyButtons = () => (
                 </div>
                 
             </Col>
-        </Row>
-        <Row>
-            <Col className='text-center my-5' lg={5}>
-                
-            </Col>
-        </Row>
+        </Row>        
     </Container>
 )
 export default BtnFancyButtons

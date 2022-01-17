@@ -3,7 +3,12 @@
     "",
     "\\src",
     "\\src\\components",
+    "\\src\\components\\buttons",
+    "\\src\\components\\layout",
+    "\\src\\components\\titles",
     "\\src\\images",
+    "\\src\\pages",
+    "\\src\\styles",
     "\\src\\templates"
   ],
   "SelectedNode": "\\src\\images\\gatsby-icon.png",

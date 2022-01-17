@@ -12,6 +12,9 @@ const Header = () => {
                 <li>
                     <Link to='/titles'>titles</Link>
                 </li>
+                <li>
+                    <Link to='/choice'>multiple choice</Link>
+                </li>
             </ul>
         </header>
     )

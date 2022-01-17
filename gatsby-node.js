@@ -12,6 +12,13 @@ exports.createPages = async ({ actions }) => {
         component: require.resolve("./src/templates/titles.js"),
         context: {},
         defer: true,
+    });
+
+    let choice = await createPage({
+        path: "/choice",
+        component: require.resolve("./src/templates/choice.js"),
+        context: {},
+        defer: true,
     })
-    return {buttons, title}
+    return {buttons, title, choice}
 }
