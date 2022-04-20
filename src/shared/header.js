@@ -15,6 +15,9 @@ const Header = () => {
                 <li>
                     <Link to='/choice'>multiple choice</Link>
                 </li>
+                <li>
+                    <Link to='/flex-box'>flex box</Link>
+                </li>
             </ul>
         </header>
     )

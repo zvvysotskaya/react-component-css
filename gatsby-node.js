@@ -20,5 +20,12 @@ exports.createPages = async ({ actions }) => {
         context: {},
         defer: true,
     })
-    return {buttons, title, choice}
+    let flexBox = await createPage({
+        path: "/flex-box",
+        component: require.resolve("./src/templates/flex-box.js"),
+        context: {},
+        defer: true,
+    })
+    
+    return { buttons, title, choice, flexBox}
 }

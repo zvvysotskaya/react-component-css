@@ -3,14 +3,11 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\buttons",
-    "\\src\\components\\layout",
-    "\\src\\components\\titles",
+    "\\src\\components\\image",
     "\\src\\images",
-    "\\src\\pages",
-    "\\src\\styles",
-    "\\src\\templates"
+    "\\src\\shared",
+    "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\images\\gatsby-icon.png",
+  "SelectedNode": "\\src\\components\\image\\just-image.js",
   "PreviewInSolutionExplorer": false
 }
